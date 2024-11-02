@@ -1,0 +1,1 @@
+https://codeforces.com/contest/1669/submission/288201969
