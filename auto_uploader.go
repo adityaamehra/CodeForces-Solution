@@ -14,13 +14,13 @@ import (
 
 const (
 	gitHubAPIURL    = "https://api.github.com"
-	gitHubRepoOwner = "adityaamehra"                             // Replace with your GitHub username
-	gitHubRepoName  = "CodeForces-Solution"                      // Replace with your repository name
-	gitHubToken     = "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" // Replace with your GitHub token
+	gitHubRepoOwner = ""                             // Replace with your GitHub username
+	gitHubRepoName  = ""                      	 // Replace with your repository name
+	gitHubToken     = "" 				 // Replace with your GitHub token
 )
 
 func main() {
-	handle := "Adityaa_Mehra"
+	handle := ""					 // Replace with your CodeForces username
 	submissions := getSubmissions(handle)
 	acceptedProblems := make([]AcceptedProblem, 0, len(submissions))
 	for _, v := range submissions {
@@ -175,6 +175,8 @@ func (l AcceptedProblem) getLink() string {
 func (l AcceptedProblem) getFileName() string {
 	return strconv.Itoa(l.contestId) + "-" + l.index + "_" + normalizeProblemName(l.name) + "." + normalizeLanguageName(l.language)
 }
+
+// You can add some of the extensions to your file by adding if-else statements with the key as the COMPILER
 
 func normalizeLanguageName(s string) string {
 	if strings.Contains(s, "Java") || strings.Contains(s, "java") {
