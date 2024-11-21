@@ -51,7 +51,7 @@ go run auto_uploader.go
 - Peace of Mind: Enjoy knowing your files are where they should be.
 ## 🖋️ License
 
-This project is licensed under the Apache License 2.0. See the [LICENSE]([https://pages.github.com/](https://github.com/adityaamehra/CodeForces-Solution/blob/main/LICENSE)) file for details.
+This project is licensed under the Apache License 2.0. See the [LICENSE](https://github.com/adityaamehra/CodeForces-Solution/blob/main/LICENSE) file for details.
 
 ## 🙌 Contributions Welcome!
 
