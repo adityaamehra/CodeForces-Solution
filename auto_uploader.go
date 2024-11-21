@@ -16,7 +16,7 @@ const (
 	gitHubAPIURL    = "https://api.github.com"
 	gitHubRepoOwner = ""                             // Replace with your GitHub username
 	gitHubRepoName  = ""                      	 // Replace with your repository name
-	gitHubToken     = "" 				 // Replace with your GitHub token
+	gitHubToken     = "" 				 // Replace with your GitHub token key
 )
 
 func main() {
