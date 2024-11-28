@@ -27,8 +27,8 @@ Before you dive in, check off this quick list:
 
 1. **Clone this repo** (the digital equivalent of picking it off the shelf):  
    ```bash
-   git clone https://github.com/yourusername/repo-name.git
-   cd repo-name
+   git clone https://github.com/adityaamehra/CodeForces-Solution.git
+   cd CodeForces-Solution
 2. **Install dependencies** (Go loves being tidy):
   ```bash
    go mod tidy
